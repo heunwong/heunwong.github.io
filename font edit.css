@@ -1,0 +1,405 @@
+a:link, a:visited { 
+    color: #ffffff;
+    cursor: auto;
+    padding-top: 0px;
+
+}
+
+a:link:active, a:visited:active { 
+    color: #000000;
+    padding-top: 1px;
+
+}
+
+#header {
+  /*background: url(http://heroku.crimsonscholars.com/assets/home/bgdfinal-6f4048aca2e2da5148f496cb05683f77.png) center no-repeat fixed;*/
+  background: transparent url(./images/stockphotos/DeskGradient.png) center no-repeat fixed;
+  background-size: cover;
+
+}
+
+
+#main li {
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.frontbanner h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 52px;
+	color: white;
+	margin-top: 60px;
+	color: white;
+    text-shadow: 2px 2px 2px #3B3B3B;
+}
+
+.frontbanner h5{
+	font-family: 'Lato', sans-serif;
+	font-size: 26px;
+	color:white;
+	margin-top: 0px;
+	color: white;
+    text-shadow: 2px 2px 2px #3B3B3B;
+}
+
+.rowfeaturette {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #3b3b34;
+	padding-right: 0px;
+}
+
+.rowfeaturette h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: #38C73D;
+	position: relative;
+	bottom: -20px;
+}
+
+.rowfeaturette p{
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #3b3b3b;
+	padding-bottom: 0px;
+
+}
+
+.rowfeaturette button{
+	color: #8FBA3E;
+	
+	font-size: 16px;
+}
+
+.rowfeaturette1 {
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 16px;
+	color: #3b3b3b;
+	text-align: left;
+	background-color: #F0F0F0;
+	height: 670px;
+}
+
+.rowfeaturette1 h2{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: lighter;
+	color: #3b3b3b;
+	text-align: center;
+}
+
+.rowfeaturette1 h1{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 40px;
+ 	font-weight: lighter;
+	color: #38C73D;
+	text-align: center;
+	line-height: 25%;
+}
+
+.rowfeaturette1quote{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 16px;
+	color: #3b3b3b;
+	font-style: italic;
+}
+
+#howitworks {
+	font-family: 'Lato', sans-serif;
+ 	font-size: 40px;
+ 	font-weight: lighter;
+	color: #38C73D;
+	text-align: center;
+	line-height: 50%;
+}
+
+#howitworks h2{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: lighter;
+	color: #3b3b3b;
+	text-align: center;
+}
+
+#say h1{
+	font-size: 22px;
+	color: #38C73D;
+	padding-top: 30px;
+}
+
+
+#iPad {
+	width: 600px;
+	height: 455px;
+	position: relative;
+	top: -50px;
+	left: -50px;
+}
+
+#girl1 {
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+#mom1 {
+	width: 230px;
+	height: 200px;
+	border-radius: 10px;
+}
+
+.bubble {
+    position: relative;
+    width: 700px;
+    height: 200px;
+    padding: 3px;
+    font-size: 20px;
+    border-radius: 10px;
+    background: #dfe0ce;
+    -webkit-box-shadow: 2px 2px 10px 0px #616161;
+    -moz-box-shadow: 2px 2px 10px 0px #616161;
+    box-shadow: 2px 2px 10px 0px #616161;
+}
+
+
+.bubble:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 44px;
+    border-style: solid;
+    border-width: 20px 13px 0;
+    border-color: #dfe0ce transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+}
+
+.allstar{
+	background-color: #F0F0F0;
+	height: 700px;
+	padding-top:75px;
+	padding-bottom: 75px;
+}
+
+
+.allstar h1{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 40px;
+ 	font-weight: lighter;
+	color: #38C73D;
+	text-align: center;
+	line-height: 50%;
+}
+
+.allstar h3{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: lighter;
+	color: #3b3b3b;
+	text-align: center;
+}
+
+.allstar h4{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 16px;
+ 	
+	color: #3b3b3b;
+	text-align: center;
+}
+.allstars h4{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 20px;
+	color: #38C73D;
+	
+	text-align: center;
+	line-height: 150%;
+}
+
+.allstars h5{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 16px;
+	color: #3b3b3b;
+
+	text-align: left;
+	line-height: 100%;
+}
+
+.easy h1{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 36px;
+ 	font-weight: lighter;
+	color: #FF7519;
+	text-align: center;
+}
+
+.easy {
+	background-color: #F0F0F0;
+}
+
+.rowfeaturette1easy{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 24px;
+	color: black;
+	text-align: right;
+}
+
+
+.border {
+	border-style: solid;
+	border-color: #3b3b3b;
+	border-width: 2px;
+	border-radius: 25px;
+}
+
+
+#footer {
+	background: #333;
+	color: #eee;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+#footer h5{
+	background: #333;
+	color: #38C73D;
+	font-size: 16px;
+	font-family: 'Tahoma', sans-serif;
+}
+
+ul.unstyled{
+	list-style: none;
+	padding: 0px;
+	color: #333;
+	font-family: 'Tahoma', sans-serif;
+	text-align: center;
+}
+
+#contactus p {
+	line-height: 20%;
+}
+
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 300px;
+  margin: 5px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="age"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 5px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #38C73D;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #38C73D;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+
+}

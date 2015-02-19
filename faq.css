@@ -1,0 +1,115 @@
+a:link, a:visited { 
+    color: #FFFFFF;
+    cursor: auto;
+    padding-top: 0px;
+
+}
+
+a:link:active, a:visited:active { 
+    color: #FFFFFF;
+    padding-top: 1px;
+}
+
+ul.nav a:hover { 
+	color: #000000 !important; 
+}
+
+#main {
+	background-color: #333;
+	height: 50px;
+}
+
+#main li {
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+li.footer {
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+hr {
+	height: 1px;
+	background-color: lightgrey;
+}
+
+#QandAheading h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 24px;
+	color: #38C73D;
+}
+
+
+#QandA {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+
+#QandA h1 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#QandA a {
+	font-color: blue;
+}
+
+#study2 {
+    height: 400px;
+    width: 100%;
+ 	background-position: center;
+ 	background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.footer {
+	background: #333;
+	color: #eee;
+	font-size: 14px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+.footer li{
+	background: #333;
+	color: #eee;
+	font-size: 14px;
+	padding-bottom: 0px;
+}
+
+.footer h5{
+	background: #333;
+	color: #38C73D;
+	font-size: 16px;
+	font-family: 'Tahoma', sans-serif;
+	text-align: center;
+}
+
+ul.unstyled{
+	list-style: none;
+	padding: 0px;
+	color: #333;
+	font-family: 'Tahoma', sans-serif;
+	text-align: center;
+}
+
+#contactus {
+	line-height: 75%;
+	text-align: center;
+}
