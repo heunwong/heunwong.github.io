@@ -145,51 +145,53 @@
                         </div>
                           <button type="button" class="btn btn-info btn-simple">Save</button>
                     </div><!--modal footer-->
-    <form action="index.html" method="post" style="text-align:left">
-      
+      <form accept-charset="UTF-8" action="http://heroku.crimsonscholars.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="+26QkaQpx9xFkj4n/1SFS1bIlEEPuBx+k2mg890WM2M=" /></div>
+  
         <h1>Sign Up for a Free Session!</h1>
-        
-        <fieldset>
-          <legend><span class="number">1</span>Your basic info</legend>
-          <label for="name">First Name:</label>
-          <input type="text" id="name" name="user_name">
+    
+          <fieldset>
+            <legend><span class="number">1</span>Your basic info</legend>
+            <label for="name">First Name:</label>
+            <input type="text" id="name" name="f_name" required="true">
 
-          <label for="name">Last Name:</label>
-          <input type="text" id="name" name="user_name">
+            <label for="name">Last Name:</label>
+            <input type="text" id="name" name="l_name" required="true">
+      
+            <label for="mail">Email:</label>
+            <input type="email" id="mail" name="user_email" required="true">
+
+          </fieldset>
+    
+          <fieldset>
+            <legend><span class="number">2</span>Your profile</legend>
+          </fieldset>
+          <fieldset>
+
+            <label for="age">Age:</label>
+            <input type="text" id="age" name="user_age">
+
+            <label for="subject">Subject/s you would like help with:</label>
+            <input type="text" id="subject" name="user_subject">
+
+            <label>Best days for a tutoring session:</label>
+            <input id="user_date_sun" name="user_date_sun" type="checkbox" value="1" /><label for="date" class="light">Sunday</label><br>
+            <input id="user_date_mon" name="user_date_mon" type="checkbox" value="1" /><label for="date" class="light">Monday</label><br>
+            <input id="user_date_tue" name="user_date_tue" type="checkbox" value="1" /><label for="date" class="light">Tuesday</label><br>
+            <input id="user_date_wed" name="user_date_wed" type="checkbox" value="1" /><label for="date" class="light">Wednesday</label><br>
+            <input id="user_date_thu" name="user_date_thu" type="checkbox" value="1" /><label for="date" class="light">Thursday</label><br>
+            <input id="user_date_fri" name="user_date_fri" type="checkbox" value="1" /><label for="date" class="light">Friday</label><br>
+            <input id="user_date_sat" name="user_date_sat" type="checkbox" value="1" /><label for="date" class="light">Saturday</label><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="text" id="phone" name="user_phone">
+      
           
-          <label for="mail">Email:</label>
-          <input type="email" id="mail" name="user_email">
+    
+            <label for="comments">Anything else you would like to tell us:</label>
+            <textarea id="comments" name="user_comments"></textarea>
+          </fieldset>
 
-        </fieldset>
         
-        <fieldset>
-          <legend><span class="number">2</span>Your profile</legend>
-        </fieldset>
-        <fieldset>
-
-          <label for="age">Age:</label>
-          <input type="text" id="age" name="user_age">
-
-          <label for="subject">Subject/s you would like help with:</label>
-          <input type="text" id="subject" name="user_subject">
-
-          <label>Best days for a tutoring session:</label>
-          <input type="checkbox" id="date" value="date" name="user_date"><label for="date" class="light">Sunday</label><br>
-          <input type="checkbox" id="date" value="date" name="user_date"><label for="date" class="light">Monday</label><br>
-          <input type="checkbox" id="date" value="date" name="user_date"><label for="date" class="light">Tuesday</label><br>
-          <input type="checkbox" id="date" value="date" name="user_date"><label for="date" class="light">Wednesday</label><br>
-          <input type="checkbox" id="date" value="date" name="user_date"><label for="date" class="light">Thursday</label><br>
-          <input type="checkbox" id="date" value="date" name="user_date"><label for="date" class="light">Friday</label><br>
-          <input type="checkbox" id="date" value="date" name="user_date"><label for="date" class="light">Saturday</label><br><br>
-
-        <label for="phone">Phone Number:</label>
-        <input type="text" id="phone" name="user_phone">
-          
-        </select>
-        
-        <label for="comments">Anything else you would like to tell us:</label>
-          <textarea id="comments" name="user_comments"></textarea>
-        </fieldset>
         <button type="submit" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Submit'});">Sign Up</button>
       </form>
                 </div><!--modal-content-->
