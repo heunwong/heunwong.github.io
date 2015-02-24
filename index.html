@@ -56,19 +56,19 @@
                <ul class="nav navbar-nav">
                     
                     <li>
-                        <a href="http://www.crimsonscholars.com">Home</a>
+                        <a href="http://crimsonscholars.com" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Home'});">Home</a>
                     </li>
 
                     <li>
-                        <a href="./about.html">About</a>
+                        <a href="./about.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'About'});">About</a>
                     </li>
 
                     <li>
-                        <a href="./faq.html">FAQs</a>
+                        <a href="./faq.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'FAQ'});">FAQ</a>
                     </li>
 
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="#" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Contact'});">Contact</a>
                     </li>
 
                </ul><!--end ul navbar-->
@@ -83,7 +83,7 @@
             <br><br>
         </div><!--frontbanner-->
   
-          <br><br><br><button class="btn btn-lg" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:200px;font-size:26px" onClick="ga('send', 'event', { eventCategory: 'Start Button', eventAction: 'Request Tutor'});">Start Now!
+          <br><br><br><button class="btn btn-lg" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:200px;font-size:26px" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Start Now!
           </button>
 
       
@@ -97,7 +97,7 @@
                   <div class="modal-dialog">
                     <div class="modal-content">
                       <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="text-align:right">&times;</button>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="text-align:right" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Close'});">&times;</button>
                         <!--<h4 class="modal-title" id="myModalLabel">Registration</h4>
                       </div><!--modal-header-->
                       
@@ -190,7 +190,7 @@
         <label for="comments">Anything else you would like to tell us:</label>
           <textarea id="comments" name="user_comments"></textarea>
         </fieldset>
-        <button type="submit" onClick="ga('send', 'event', { eventCategory: 'Submit Button', eventAction: 'Send Request'});">Sign Up</button>
+        <button type="submit" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Submit'});">Sign Up</button>
       </form>
                 </div><!--modal-content-->
               </div><!--modal-dialouge-->
@@ -402,8 +402,8 @@
         <div class="col-lg-3">
         <h5>Company</h5>     
         <ul class="unstyled">
-          <li><a href="http://www.crimsonscholars.com">Home</a></li>
-          <li><a href="./about.html">About Us</a></li>
+          <li><a href="http://crimsonscholars.com">Home</a></li>
+          <li><a href="#what_they_say">What People Say</a></li>
           <li><a href="#how_it_works">How It Works</a></li>
           <li><a href="#see_tutors">Our Tutors</a></li>
         </ul>
@@ -420,9 +420,13 @@
         
         <div class="col-lg-3" id="contactus">
         <h5>Contact Us</h5>
-        <p><i class="fa fa-phone"></i> 1(929)-500-1374</p>
-        <p><i class="fa fa-map-marker"></i> 38 West 36th St.</p>
-        <p>New York, NY 10018</P>
+        <ul class="unstyled">
+          <li><i class="fa fa-phone"></i> (929) 500-1374</li>
+          <li><i class="fa fa-map-marker"></i> 31 East 32nd St.</li>
+          <li>New York, NY 10016</li>
+          <li>support@crimsonscholars.com</li>
+        </ul>
+
         </div><!--col-lg-3-->
 
         <div class="col-lg-3">
@@ -433,11 +437,7 @@
         <!-- Twitter -->
         <a href="http://twitter.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/twitter.png" alt="Twitter" width="30" height="30"></a>
 
-        <!-- Google+ -->
-        <a href="https://plus.google.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/googleplus-square.png" alt="Google" width="30" height="30"></a>
-
-        <!-- LinkedIn -->
-        <a href="http://www.linkedin.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/linkedin.png" alt="LinkedIn" width="30" height="30"></a>
+        
         </div><!--col-lg-3-->
 
     </div><!--row-->
