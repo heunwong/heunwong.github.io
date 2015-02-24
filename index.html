@@ -83,7 +83,7 @@
             <br><br>
         </div><!--frontbanner-->
   
-          <br><br><br><button class="btn btn-lg" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:200px;font-size:26px">Start Now!
+          <br><br><br><button class="btn btn-lg" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:200px;font-size:26px" onClick="ga('send', 'event', { eventCategory: 'Start Button', eventAction: 'Request Tutor'});">Start Now!
           </button>
 
       
@@ -190,7 +190,7 @@
         <label for="comments">Anything else you would like to tell us:</label>
           <textarea id="comments" name="user_comments"></textarea>
         </fieldset>
-        <button type="submit">Sign Up</button>
+        <button type="submit" onClick="ga('send', 'event', { eventCategory: 'Submit Button', eventAction: 'Send Request'});">Request Tutor</button>
       </form>
                 </div><!--modal-content-->
               </div><!--modal-dialouge-->
