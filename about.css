@@ -11,7 +11,7 @@ a:link:active, a:visited:active {
 }
 
 #header {
-  background: none;
+  background: none !important;
   background-size: cover;
 
 }
