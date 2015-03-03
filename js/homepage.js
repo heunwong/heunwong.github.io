@@ -8,5 +8,5 @@ $(function() {
 	$('#sucessAlert').on('closed.bs.alert', function () {
   		$().alert('close')
   	});
-})
+});
 });
