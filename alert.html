@@ -16,6 +16,8 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
+<link href="./homepage.css" rel="stylesheet" type="text/css">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -23,19 +25,55 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <div class="alert alert-warning alert-dismissible" role="alert">
-  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-  	<span aria-hidden="true">&times;</span>
-  </button>
-  <strong>Warning!</strong> 
-  Better check yourself, you're not looking too good.
-</div>
+  <body style="text-align:center">
+   <header style="height:600px" id="header">
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    
+<nav class="navbar transparent navbar-top-static" style="padding-top:15px">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <i class="fa fa-bars"></i>
+      </button>
+                    <a class="navbar-brand" href="http://www.crimsonscholars.com">
+                <img src="./images/stockphotos/main-logo.png" alt="Crimson Scholars" style="width:300px;height:37px;padding-top:0px">
+              </a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+
+      <ul class="nav navbar-nav navbar-right">
+                <li>
+                  <a href="http://crimsonscholars.com" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Home'});">  Home
+                  </a>
+                </li>
+
+                <li>
+                  <a href="./about.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'About'});">
+                    About
+                  </a>
+                </li>
+
+                <li>
+                  <a href="./faq.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'FAQ'});">
+                    FAQ
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#contactus" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Contact'});">
+                    Contact
+                  </a>
+                </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+</header>
+
   </body>
 </html>
