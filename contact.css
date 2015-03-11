@@ -1,0 +1,138 @@
+a:link, a:visited { 
+    color: #FFFFFF;
+    cursor: auto;
+    padding-top: 0px;
+}
+
+a:link:active, a:visited:active { 
+    color: #FFFFFF;
+    padding-top: 1px;
+}
+
+ul.nav a:hover { 
+	color: #000000 !important; 
+}
+
+#main {
+	background-color: #333;
+	height: 55px;
+}
+
+#main li {
+	font-size: 16px;
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	font-size: 18px;
+	font-family: "Lato", sans-serif;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+li.footer {
+	font-size: 14px;
+	font-family: "Lato", sans-serif;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+hr {
+	height: 1px;
+	background-color: lightgrey;
+}
+
+#contactHeading h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+	color: #38C73D;
+}
+
+#contactintro p{
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+
+}
+
+.h1 small {
+	font-size: 24px;
+}
+
+#map {
+	margin-top: 10px;
+	line-height: 95%;
+}
+
+#map p{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	text-align: right;
+}
+
+#contacttutors {
+	border-radius: 10px;
+	margin-bottom: 50px;
+	padding-bottom: 20px;
+	background-color: #333;
+	width: 560px;
+
+}
+
+#contacttutors h3{
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #fff;
+}
+
+#contacttutors h4{
+	color: #000000;
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #fff;
+}
+
+.footer {
+	background: #333;
+	color: #eee;
+	font-size: 14px;
+	padding-top: 10px;
+	width: 100%;
+	position: absolute;
+}
+
+.footer li{
+	background: #333;
+	color: #eee;
+	font-size: 14px;
+	padding-bottom: 0px;
+
+}
+
+.footer h5{
+	background: #333;
+	color: #38C73D;
+	font-size: 16px;
+	font-family: 'Tahoma', sans-serif;
+
+}
+
+ul.unstyled{
+	list-style: none;
+	padding: 0px;
+	color: #333;
+	font-family: 'Tahoma', sans-serif;
+
+}
+
+#contactus {
+	line-height: 75%;
+
+}
