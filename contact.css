@@ -57,45 +57,39 @@ hr {
 #contactintro p{
 	color: #000000;
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
-
+	font-size: 21px;
 }
 
-.h1 small {
-	font-size: 24px;
-}
-
-#map {
-	margin-top: 10px;
-	line-height: 95%;
-}
-
-#map p{
+#contactintro h2{
+	color: #000000;
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
-	text-align: right;
+	font-size: 18px;
 }
 
 #contacttutors {
-	border-radius: 10px;
+	border-radius: 5px;
 	margin-bottom: 50px;
+	margin-top: 117px;
+	margin-left: 10px;
 	padding-bottom: 20px;
 	background-color: #333;
-	width: 560px;
+	width: 370px;
 
 }
 
 #contacttutors h3{
 	color: #000000;
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+	font-size: 22px;
 	color: #fff;
+	font-weight: lighter;
 }
 
 #contacttutors h4{
 	color: #000000;
 	font-family: 'Lato', sans-serif;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: lighter;
 	color: #fff;
 }
 
