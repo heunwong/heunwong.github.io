@@ -15,6 +15,10 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+<script type='text/javascript' src="js/bootstrapvalidator-dist-0.4.5/dist/js/bootstrapValidator.min.js"></script>
+<script type='text/javascript' src="js/bootstrapvalidator-dist-0.4.5/dist/css/bootstrapValidator.min.css"></script>
+<script src="js/modernizr-custom.js"></script>
+<script src="js-webshim/minified/polyfiller.js"></script>
 
 <link href="./homepage.css" rel="stylesheet" type="text/css">
 
@@ -74,6 +78,46 @@
 </nav>
 
 </header>
+<form action="#" class="form-horizontal ws-validate">
+    <div class="form-group">
+        <label for="inputEmail3" class="control-label">Email*</label>
+        <input type="email" class="form-control" id="inputEmail3" placeholder="Email" required />
+    </div>
+    <div class="form-group">
+        <label for="inputPassword3" class="control-label">Password*</label>
+        <input type="password" class="form-control" id="inputPassword3" placeholder="Password" required />
+    </div>
+    <div class="form-group">
+        <div class="checkbox">
+            <label>
+                <input type="checkbox" required="" />Remember me</label>
+        </div>
+    </div>
+    <div class="form-group">
+        <button type="submit" class="btn btn-primary">submit</button>
+    </div>
+</form>
+<script>
+(function () {
+    webshim.setOptions('forms', {
+        lazyCustomMessages: true,
+        iVal: {
+            sel: '.ws-validate',
+            handleBubble: 'hide', // hide error bubble
 
+            //add bootstrap specific classes
+            errorMessageClass: 'help-block',
+            successWrapperClass: 'has-success',
+            errorWrapperClass: 'has-error',
+
+            //add config to find right wrapper
+            fieldWrapper: '.form-group'
+        }
+    });
+
+    //load forms polyfill + iVal feature
+    webshim.polyfill('forms');
+})();
+</script>
   </body>
 </html>
