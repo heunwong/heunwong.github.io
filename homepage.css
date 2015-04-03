@@ -221,8 +221,8 @@ ul.nav a:hover {
 
 .allstar{
 	background-color: #F0F0F0;
-	padding-top:75px;
-	padding-bottom: 75px;
+	padding-top:50px;
+	padding-bottom: 50px;
 }
 
 
@@ -266,11 +266,7 @@ ul.nav a:hover {
 
 }
 
-#photocircle {
-	-webkit-box-shadow: 2px 2px 10px 0px #616161;
-    -moz-box-shadow: 2px 2px 10px 0px #616161;
-    box-shadow: 2px 2px 10px 0px #616161;
-}
+
 
 .border {
 	border-style: solid;
@@ -283,7 +279,7 @@ ul.nav a:hover {
 #footer {
 	background: #333;
 	color: #eee;
-	font-size: 14px;
+	font-size: 12px;
 	padding-top: 20px;
 	padding-bottom: 0px;
 }
