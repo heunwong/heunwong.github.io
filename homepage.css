@@ -339,6 +339,13 @@ body {
 
 }
 
+.pricing a {
+      color: #38C73D;
+    cursor: auto;
+    padding-top: 1px;
+
+}
+
 #footer {
 	background: #333;
 	color: #eee;
