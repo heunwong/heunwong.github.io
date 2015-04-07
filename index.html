@@ -116,17 +116,20 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       </nav>
 
         <!-- banner text-->
-      <div class="row-offset-2">
+      <div class="container">
+      <div class="row">
         <div class="frontbanner">
-          <br><br><h1>Learn From A to Ivy League</h1>
+          <h1>Learn From A to Ivy League</h1>
           <h5>Request a tutor and receive a free lesson</h5>
-          <br><br>
+          
         </div><!--frontbanner-->
       </div>
+
       <div class="row">
-        <button class="btn btn-lg" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:300px;font-size:26px" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">
+        <button class="btn btn-lg" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:300px;font-size:26px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">
         Get a Free Lesson!
         </button>
+      </div>
       </div>
     </header>
           
@@ -192,27 +195,27 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
                     </div><!--modal footer-->
       <form accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="external" value="1"><input name="authenticity_token" type="hidden" value="DcRgeAEnIJwI6rmXIE3wCAC0HB4hBUpEbgZI2Dr6c6c=" /></div>
   
-        <h1>Sign Up for a Free Session!</h1>
+        <h1>Get Matched with Amazing Educators!</h1>
     
           <fieldset>
-            <legend>Your Basic Tutoring Info</legend>
-            <label for="name">First Name:</label>
+            <legend>Your Information</legend>
+            <label for="name">*First Name:</label>
             <input type="text" id="name" name="f_name" required="true">
 
-            <label for="name">Last Name:</label>
+            <label for="name">*Last Name:</label>
             <input type="text" id="name" name="l_name" required="true">
       
-            <label for="mail">Email:</label>
+            <label for="mail">*Email:</label>
             <input type="email" id="mail" name="user_email" required="true">
 
             <label for="age">Age:</label>
             <input type="text" id="age" name="user_age">
 
-            <label for="phone">Phone Number:</label>
+            <label for="phone">*Phone Number:</label>
             <input type="text" id="phone" name="user_phone" required="true">
     
-            <label for="comments">Describe Your Needs:</label>
-            <textarea id="comments" name="user_comments"></textarea>
+            <label for="comments">*Describe Your Needs:</label>
+            <textarea id="comments" name="user_comments" required="true"></textarea>
           </fieldset>
 
         
@@ -227,8 +230,8 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       
 
 
-    <div class="container">
-      <div class="row rowfeaturette">
+    <div class="container rowfeaturette">
+      <div class="row">
  
           <div class="col-md-4">
             <i class="fa fa-money fa-5x" style="padding-bottom:0px"></i>
@@ -271,7 +274,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <div class="rowfeaturette1" id="what_they_say">
       <div class="container">
         <h1>Parents and Students Love Us</h1>        
-        <h2>Here's what they're saying:</h2><br>
+        <h2>We bring the best out of our students.  Let our results speak for themselves.</h2><br>
             
  
         <div class="row">
@@ -282,7 +285,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
           <div class="col-md-8 ">       
             <div class="rowfeaturette1quote" style="text-align:center">
 
-              <p class="bubble" id="bubblegirl1">"I am very happy with what I have accomplished after we began our lessons, she is a great person as well."
+              <p id="bubblegirl1">"I am very happy with what I have accomplished after we began our lessons, she is a great person as well."
               <br><br> - S. Fu-Rubin, Student, 7th Grade, SHSAT</p>
             
             </div><!--rowfeaturette1quote-->
@@ -316,8 +319,8 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
       <div class="container">
 
         <div class="row">
-          <h1>How To Get Started</h1>
-          <h2>In 3 Easy Steps:</h2>
+          <h1>Start Learning Quickly</h1>
+          <h2>Education is our priority. Our app and web client make connecting for help simple.</h2>
         </div>
         <br>
         <div class="row">
@@ -348,11 +351,11 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
     <div class="allstar" id="see_tutors">
       <div class="container">
         <div class="row">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-md-12">
           <h1>Your All-Star Team</h1>
         
-          <h3>Day or night, ready to help</h3>
-          <h4>Our tutors are selectively chosen. They not only have great backgrounds, education, and training, but also the passion and skill for teaching. You'll notice the difference and dedication from day 1.</h4>
+          <h2>Get incredible educators and role models that match your educational needs.</h2>
+          
         </div>
         </div>     
   <br>    
@@ -361,7 +364,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
             
               <div class="allstars">
                 <div class="row">
-                  <div class="col-lg-3">
+                  <div class="col-md-3">
                   <img class="img-circle" src="./images/Kelly.jpg" style="width: 200px; height: 200px;"alt="Kelly" id="photocircle">
                   <h4>Kelly C.<br>Harvard</h4>
                   <h5 style="text-align:center">
@@ -371,7 +374,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
                   </h5>
                   </div><!--col-lg-3-->
                   
-                  <div class="col-lg-3">
+                  <div class="col-md-3">
                   <img class="img-circle" src="./images/Caroline2_crop.jpg" style="width: 200px; height: 200px;"alt="Caroline" id="photocircle">
                   <h4>Caroline S.<br>Harvard</h4>
                   <h5 style="text-align:center">
@@ -381,7 +384,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
                   </h5>
                   </div><!--col-lg-3-->
                   
-                  <div class="col-lg-3">
+                  <div class="col-md-3">
                   <img class="img-circle" src="./images/Matt.jpg" style="width: 200px; height: 200px;"alt="Matt" id="photocircle">
                   <h4>Matthew K.<br>U. of Pennsylvania</h4>
                   <h5 style="text-align:center">
@@ -391,7 +394,7 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
                   </h5>
                   </div><!--col-lg-3-->
                   
-                  <div class="col-lg-3">
+                  <div class="col-md-3">
                   <img class="img-circle" src="./images/Steve.jpg" style="width: 200px; height: 200px;"alt="Steve" id="photocircle">
                   <h4>Steve A.<br>Dartmouth</h4>
                   <h5 style="text-align:center">
@@ -404,6 +407,71 @@ valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
               </div><!--allstars-->
             </div><!--container-->
       </div><!--allstar-->
+
+    <div class="container pricing">
+      <div class="row">
+        <h1>Flexible Prices</h1>
+        <h2>Students have different needs. Our plans are adjusted to address those needs prefectly.</h2>
+      </div>
+      <div class="row" style="padding-top: 50px;">
+          
+        <div class="col-sm-4 span-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>Core</h3>
+            </div>
+            <div class="panel-body">
+              <h3 class="panel-title price">$45<span class="price-cents"></span><span class="price-month">mo.</span></h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Common Core: Math & ELA</li>
+              <li class="list-group-item">Homework Help</li>
+              <li class="list-group-item">Progress & Lesson Reports</li>
+              <li class="list-group-item">24 Hour Support</li>
+
+              <li class="list-group-item"><button class="btn btn-default" data-toggle="modal" data-target="#myModal" style="width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
+            </ul>
+          </div>          
+        </div>
+        <div class="col-sm-4 span-4">
+          <div class="panel panel-success text-center">
+            <div class="panel-heading">
+              <h3>Specialized</h3>
+            </div>
+            <div class="panel-body">
+              <h3 class="panel-title price">$60<span class="price-cents"></span><span class="price-month">mo.</span></h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Specialty Subjects: AP, Foreign Language, etc.</li>
+              <li class="list-group-item">Homework Help</li>
+              <li class="list-group-item">Progress & Lesson Reports</li>
+              <li class="list-group-item">Test Prep: SSAT, SAT, ACT, TOEFL, etc.</li>
+              <li class="list-group-item">24 Hour Support</li>
+              <li class="list-group-item"><button class="btn" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
+            </ul>
+          </div>          
+
+        </div>
+        <div class="col-sm-4">
+          <div class="panel panel-default text-center">
+            <div class="panel-heading">
+              <h3>Admissions</h3>
+            </div>
+            <div class="panel-body">
+              <h3 class="panel-title price">$100<span class="price-cents"></span><span class="price-month">mo.</span></h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Test Prep: SAT, ACT, AP, IB, TOEFL</li>
+              <li class="list-group-item">Personal Statement</li>
+              <li class="list-group-item">Mock Interiews</li>
+              <li class="list-group-item">University and Interest Analysis</li>
+              <li class="list-group-item">24 Hour Support</li>
+              <li class="list-group-item"><button class="btn btn-default" data-toggle="modal" data-target="#myModal" style="width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
+            </ul>
+          </div>          
+        </div>
+      </div>
+    </div>
   <!-- begin olark code -->
 <script data-cfasync="false" type='text/javascript'>/*<![CDATA[*/window.olark||(function(c){var f=window,d=document,l=f.location.protocol=="https:"?"https:":"http:",z=c.name,r="load";var nt=function(){
 f[z]=function(){

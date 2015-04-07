@@ -1,9 +1,39 @@
+.most-popular {
+  position: absolute;
+  top: -30px;
+  right: 10;
+  width: 92%;
+  height: auto;
+  background: #777;
+  color: #fff;
+  text-align: center;
+  padding: 6px 0;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 30px;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
+
+
 a:link, a:visited { 
     color: #ffffff;
     cursor: auto;
-    padding-top: 0px;
+    padding-top: 1px;
 
 }
+
 
 a:link:active, a:visited:active { 
     color: #000000;
@@ -13,6 +43,22 @@ a:link:active, a:visited:active {
 
 .navbar-inner {
     background:transparent;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #38C73D;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #3b3b3b;
+  text-align: center;
 }
 
 ul.nav a:hover { 
@@ -26,34 +72,40 @@ ul.nav a:hover {
 
 }
 
+body {
+  font-weight: 300;
+}
 
 #main li {
 	font-size: 16px;
 	font-family: "Lato", sans-serif;
-	font-weight: lighter;
+	font-weight: 300;
 	color: #000000;
 	padding: 0px;
 	margin: 0px;
 }
 
 
-
 .frontbanner h1{
 	font-family: 'Lato', sans-serif;
-	font-size: 52px;
+	font-size: 70px;
+  font-weight: 300;
 	color: white;
-	margin-top: 60px;
+	margin-top: 70px;
+  margin-bottom: 10px;
 	color: white;
-    text-shadow: 2px 2px 2px #3B3B3B;
+
 }
 
 .frontbanner h5{
 	font-family: 'Lato', sans-serif;
-	font-size: 26px;
+	font-size: 30px;
+  font-weight: 300;
 	color:white;
 	margin-top: 0px;
+  margin-bottom: 100px;
 	color: white;
-    text-shadow: 2px 2px 2px #3B3B3B;
+;
 }
 
 .rowfeaturette {
@@ -98,7 +150,7 @@ ul.nav a:hover {
 .rowfeaturette1 h2{
  	font-family: 'Lato', sans-serif;
  	font-size: 24px;
- 	font-weight: lighter;
+ 	font-weight: 300;
 	color: #3b3b3b;
 	text-align: center;
 }
@@ -106,7 +158,7 @@ ul.nav a:hover {
 .rowfeaturette1 h1{
  	font-family: 'Lato', sans-serif;
  	font-size: 40px;
- 	font-weight: lighter;
+ 	font-weight: 300;
 	color: #38C73D;
 	text-align: center;
 }
@@ -117,6 +169,7 @@ ul.nav a:hover {
 	color: #3b3b3b;
 	font-style: italic;
 }
+
 .howitworks {
   font-family: 'Lato', sans-serif;
   font-size: 16px;
@@ -130,7 +183,7 @@ ul.nav a:hover {
 #howitworks h1{
 	font-family: 'Lato', sans-serif;
  	font-size: 40px;
- 	font-weight: lighter;
+ 	font-weight: 300;
 	color: #38C73D;
 	text-align: center;
 }
@@ -138,7 +191,7 @@ ul.nav a:hover {
 #howitworks h2{
 	font-family: 'Lato', sans-serif;
  	font-size: 24px;
- 	font-weight: lighter;
+ 	font-weight: 300;
 	color: #3b3b3b;
 	text-align: center;
 }
@@ -197,8 +250,8 @@ ul.nav a:hover {
   background-color: #fff;
   border-left: medium none;
   border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  color: rgba(85,94,106,0.8);
+  border: 1px solid #EBEBEB;
+  color: #3b3b3b;
   font-size: 16px;
   font-style: italic;
   line-height: 1.6;
@@ -210,8 +263,8 @@ ul.nav a:hover {
   background-color: #fff;
   border-left: medium none;
   border-radius: 5px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-  color: rgba(85,94,106,0.8);
+  box-shadow: 0 1px 0px rgba(0,0,0,0.08);
+  color: #3b3b3b;
   font-size: 16px;
   font-style: italic;
   line-height: 1.6;
@@ -229,16 +282,17 @@ ul.nav a:hover {
 .allstar h1{
  	font-family: 'Lato', sans-serif;
  	font-size: 40px;
- 	font-weight: lighter;
+ 	font-weight: 300;
 	color: #38C73D;
 	text-align: center;
+  margin-bottom: 10px;
 
 }
 
 .allstar h3{
  	font-family: 'Lato', sans-serif;
- 	font-size: 24px;
- 	font-weight: lighter;
+ 	font-size: 20px;
+ 	font-weight: 300;
 	color: #3b3b3b;
 	text-align: center;
 }
@@ -255,6 +309,7 @@ ul.nav a:hover {
  	font-size: 20px;
 	color: #38C73D;
 	text-align: center;
+  font-weight: 300;
 
 }
 
@@ -263,9 +318,9 @@ ul.nav a:hover {
  	font-size: 16px;
 	color: #3b3b3b;
 	text-align: left;
+  font-weight: 300;
 
 }
-
 
 
 .border {
@@ -275,6 +330,14 @@ ul.nav a:hover {
 	border-radius: 25px;
 }
 
+.pricing {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #3b3b34;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
 
 #footer {
 	background: #333;
