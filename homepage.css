@@ -1,31 +1,9 @@
-.most-popular {
-  position: absolute;
-  top: -30px;
-  right: 10;
-  width: 92%;
-  height: auto;
-  background: #777;
-  color: #fff;
-  text-align: center;
-  padding: 6px 0;
-  text-transform: uppercase;
+
+body {
+  font-weight: 300;
+  word-spacing: 1px;
+  font-family: 'Lato', sans-serif;
 }
-
-.price {
-  font-size: 30px;
-}
-
-.price-cents {
-  vertical-align: super;
-  font-size: 50%;
-}
-
-.price-month {
-  font-size: 35%;
-  font-style: italic;
-}
-
-
 
 a:link, a:visited { 
     color: #ffffff;
@@ -72,12 +50,11 @@ ul.nav a:hover {
 
 }
 
-body {
-  font-weight: 300;
-}
 
-#main li {
-	font-size: 16px;
+
+.nav li {
+	font-size: 14px;
+  text-transform: uppercase;
 	font-family: "Lato", sans-serif;
 	font-weight: 300;
 	color: #000000;
@@ -346,6 +323,33 @@ body {
 
 }
 
+.most-popular {
+  position: absolute;
+  top: -30px;
+  right: 10;
+  width: 92%;
+  height: auto;
+  background: #777;
+  color: #fff;
+  text-align: center;
+  padding: 6px 0;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 30px;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
 #footer {
 	background: #333;
 	color: #eee;
@@ -358,14 +362,17 @@ body {
 	background: #333;
 	color: #38C73D;
 	font-size: 16px;
-	font-family: 'Tahoma', sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
+#footer li{
+  font-size: 12px;
+}
 ul.unstyled{
 	list-style: none;
 	padding: 0px;
 	color: #333;
-	font-family: 'Tahoma', sans-serif;
+	font-family: 'Lato', sans-serif;
 	text-align: center;
 }
 
