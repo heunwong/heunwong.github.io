@@ -96,6 +96,7 @@ ul.nav a:hover {
 .rowfeaturette a{
   color: #8FBA3E;
   font-size: 16px;
+  font-weight: 400;
 }
 
 .rowfeaturette h1{
@@ -317,7 +318,7 @@ ul.nav a:hover {
 }
 
 .pricing a {
-      color: #38C73D;
+    color: #8FBA3E;
     cursor: auto;
     padding-top: 1px;
 
