@@ -141,7 +141,7 @@
               </li>
 
               <li>
-                <a href="./contact1.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Contact'});">
+                <a href="#" data-toggle="modal" data-target="#contactModal"  onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Contact'});">
                 Contact
                 </a>
               </li>
@@ -263,6 +263,91 @@
               </div><!--modal-dialouge-->
               </div><!--modal-fade-->
             </div>
+
+             <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true" style="text-align:right" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Close'});">&times;</button>
+                        <!--<h4 class="modal-title" id="myModalLabel">Registration</h4>
+                      </div><!--modal-header-->
+                      
+                      <!--<div class="modal-body">
+                    <form class="form-horizontal">
+                      <div class="form-group">
+                        <label class="col-lg-2 control-label" for="inputName">First Name</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputName" placeholder="Name" type="text">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-lg-2 control-label" for="inputName">Last Name</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputName" placeholder="Last Name" type="text">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-lg-2 control-label" for="inputEmail">Email Address</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputEmail" placeholder="Email" type="text">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-lg-2 control label" for="inputNumber">Age</label>
+                      <div class="col-lg-10">
+                        <input class="form-control" id="inputNumber" placeholder="Number" type="text">
+                      </div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="col-lg-2 control label" for="inputMessage">Subject</label>
+                      <div class="col-lg-10">
+                        <textarea class="form-control" id="inputMessage" placeholder="Message" rows="2"></textarea>
+                      </div>
+                          </form>
+                    </div><!--modal body-->
+
+                    <!--<div class="modal-footer">
+                      <button type="button" class="btn btn-default btn-simple" data-dismiss="modal">Close</button>
+                        <div class="divider">
+                        </div>
+                          <button type="button" class="btn btn-info btn-simple">Save</button>
+                    </div><!--modal footer-->
+
+      <form accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="external" value="1"><input name="authenticity_token" type="hidden" value="DcRgeAEnIJwI6rmXIE3wCAC0HB4hBUpEbgZI2Dr6c6c=" /></div>
+  
+        <h1>Talk to Us!</h1>
+    
+          <fieldset>
+            <legend></legend>
+            <label for="name">*First Name:</label>
+            <input type="text" id="name" name="f_name" required="true">
+
+            <label for="name">*Last Name:</label>
+            <input type="text" id="name" name="l_name" required="true">
+      
+            <label for="mail">*Email:</label>
+            <input type="email" id="mail" name="user_email" required="true">
+    
+            <label for="comments">*Your Message:</label>
+            <textarea id="comments" name="user_comments" rows="9" cols="25" required="true"></textarea>
+          </fieldset>
+
+        
+        <button type="submit" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Submit'});">Email</button>
+      </form>
+
+                </div><!--modal-content-->
+              </div><!--modal-dialouge-->
+              </div><!--modal-fade-->
+            </div>
+
+
+
+
   
       
 
