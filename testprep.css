@@ -1,0 +1,522 @@
+
+body {
+  font-weight: 300;
+  word-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+}
+
+a:link, a:visited { 
+    color: #ffffff;
+    cursor: auto;
+    padding-top: 1px;
+
+}
+
+
+a:link:active, a:visited:active { 
+    color: #000000;
+    padding-top: 1px;
+
+}
+
+.navbar-inner {
+    background:transparent;
+}
+
+h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #38C73D;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+  color: #3b3b3b;
+  text-align: center;
+}
+
+ul.nav a:hover { 
+	color: #000000 !important; 
+}
+
+#header {
+  /*background: url(http://heroku.crimsonscholars.com/assets/home/bgdfinal-6f4048aca2e2da5148f496cb05683f77.png) center no-repeat fixed;*/
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  background: transparent url(./images/stockphotos/TestGradient1.jpg) no-repeat center fixed;
+  background-size: cover;
+
+}
+
+
+
+.nav li {
+	font-size: 14px;
+  text-transform: uppercase;
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	color: #000000;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+.frontbanner h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 60px;
+  font-weight: 300;
+	color: white;
+	margin-top: 0px;
+  margin-bottom: 10px;
+
+}
+
+.frontbanner h2{
+	font-family: 'Lato', sans-serif;
+	font-size: 30px;
+  font-weight: 300;
+	color: white;
+	margin-top: 0px;
+  margin-bottom: 100px;
+	
+;
+}
+
+.rowfeaturette {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+	color: #3b3b34;
+	padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+.rowfeaturette a{
+  color: #8FBA3E;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.rowfeaturette h1{
+	font-family: 'Lato', sans-serif;
+	font-size: 40px;
+	color: #38C73D;
+  text-align: left;
+}
+
+.rowfeaturette p{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	color: #3b3b3b;
+	padding-bottom: 0px;
+}
+
+.rowfeaturette2 {
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #3b3b3b;
+  
+  text-align: right;
+
+}
+.rowfeaturette2 h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #38C73D;
+  text-align: right;
+}
+
+.rowfeaturette1 {
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 20px;
+	color: #3b3b3b;
+	text-align: left;
+	background-color: #F0F0F0;
+	padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: right;
+
+}
+
+.rowfeaturette1 h2{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: 300;
+	color: #3b3b3b;
+	text-align: center;
+}
+
+.rowfeaturette1 h1{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 40px;
+ 	font-weight: 300;
+	color: #38C73D;
+	text-align: right;
+}
+
+.rowfeaturette1quote{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 16px;
+	color: #3b3b3b;
+	font-style: italic;
+}
+
+.howitworks {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #3b3b34;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+
+#howitworks h1{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 40px;
+ 	font-weight: 300;
+	color: #38C73D;
+	text-align: center;
+}
+
+#howitworks h2{
+	font-family: 'Lato', sans-serif;
+ 	font-size: 24px;
+ 	font-weight: 300;
+	color: #3b3b3b;
+	text-align: center;
+}
+
+#howitworks h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  color: #38C73D;
+  position: relative;
+  text-align: center;
+}
+
+.howitworks a{
+  color: #8FBA3E;
+  font-size: 16px;
+}
+
+#say h1{
+	font-size: 22px;
+	color: #38C73D;
+	padding-top: 30px;
+}
+
+
+#iPad {
+	width: 80%;
+	height: 80%;
+	position: relative;
+}
+
+.textspace{
+  padding: 10px;
+}
+
+#girl1 {
+	width: 100%;
+	height: 100%;
+  border-left: medium none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  color: rgba(85,94,106,0.8);
+  position: relative;
+}
+
+#mom1 {
+	width: 100%;
+	height: 100%;
+  border-left: medium none;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+  color: rgba(85,94,106,0.8);
+  position: relative;
+}
+
+#bubblegirl1 {    
+  background-color: #fff;
+  border-left: medium none;
+  border-radius: 5px;
+  border: 1px solid #EBEBEB;
+  color: #3b3b3b;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 26px;
+  position: relative;
+}
+
+#bubblemom1 {
+  background-color: #fff;
+  border-left: medium none;
+  border-radius: 5px;
+  box-shadow: 0 1px 0px rgba(0,0,0,0.08);
+  color: #3b3b3b;
+  font-size: 16px;
+  font-style: italic;
+  line-height: 1.6;
+  padding: 26px;
+  position: relative;
+}
+
+.allstar{
+	background-color: #F0F0F0;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+
+
+.allstar h1{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 40px;
+ 	font-weight: 300;
+	color: #38C73D;
+	text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.allstar h3{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 20px;
+ 	font-weight: 300;
+	color: #3b3b3b;
+	text-align: center;
+}
+
+.allstar h4{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 16px;
+ 	
+	color: #3b3b3b;
+	text-align: center;
+}
+.allstars h4{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 20px;
+	color: #38C73D;
+	text-align: center;
+  font-weight: 300;
+
+}
+
+.allstars h5{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 16px;
+	color: #3b3b3b;
+	text-align: left;
+  font-weight: 300;
+
+}
+
+
+.border {
+	border-style: solid;
+	border-color: #3b3b3b;
+	border-width: 2px;
+	border-radius: 25px;
+}
+
+.pricing {
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  color: #3b3b34;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #F0F0F0;
+
+}
+
+.pricing a {
+    color: #8FBA3E;
+    cursor: auto;
+    padding-top: 1px;
+
+}
+
+.most-popular {
+  position: absolute;
+  top: -30px;
+  right: 10;
+  width: 92%;
+  height: auto;
+  background: #777;
+  color: #fff;
+  text-align: center;
+  padding: 6px 0;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 30px;
+}
+
+.price-cents {
+  vertical-align: super;
+  font-size: 50%;
+}
+
+.price-month {
+  font-size: 35%;
+  font-style: italic;
+}
+
+#footer {
+	background: #333;
+	color: #eee;
+	font-size: 12px;
+	padding-top: 20px;
+	padding-bottom: 0px;
+}
+
+#footer h5{
+	background: #333;
+	color: #38C73D;
+	font-size: 16px;
+	font-family: 'Lato', sans-serif;
+}
+
+#footer li{
+  font-size: 12px;
+}
+ul.unstyled{
+	list-style: none;
+	padding: 0px;
+	color: #333;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
+
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #384047;
+}
+
+form {
+  max-width: 300px;
+  margin: 5px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  margin: 0 0 30px 0;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="date"],
+input[type="age"],
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="tel"],
+input[type="time"],
+input[type="url"],
+textarea,
+select {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 5px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+  margin-bottom: 10px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin: 0 4px 8px 0;
+}
+
+select {
+  padding: 6px;
+  height: 32px;
+  border-radius: 2px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #38C73D;
+  font-size: 18px;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 100%;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+  margin-bottom: 10px;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+label.light {
+  font-weight: 300;
+  display: inline;
+}
+
+.number {
+  background-color: #38C73D;
+  color: #fff;
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  font-size: 0.8em;
+  margin-right: 4px;
+  line-height: 30px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 480px) {
+
+  form {
+    max-width: 480px;
+  }
+  .frontbanner h1{
+  font-size: 70px;
+  margin-top: 70px;
+  }
+
+
+}
