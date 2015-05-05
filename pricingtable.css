@@ -1,0 +1,266 @@
+body.green-theme a{color:#244521}
+body.green-theme a:hover{color:#bddeba;text-decoration:none}
+body.green-theme .sub-title{color:#bddeba}
+body.green-theme .plans .btn.btn-success{
+  color:#fff;text-shadow:0 -1px 0 rgba(0,0,0,0.25);
+  background-color:#3c7538;
+  background-image:-moz-linear-gradient(top, #478a42, #2c5629);
+  background-image:-webkit-gradient(linear, 0 0, 0 100%, from(#478a42), to(#2c5629));
+  background-image:-webkit-linear-gradient(top, #478a42, #2c5629);
+  background-image:-o-linear-gradient(top, #478a42, #2c5629);
+  background-image:linear-gradient(to bottom, #478a42,#2c5629);
+  background-repeat:repeat-x;
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#FF478A42', endColorstr='#FF2C5629', GradientType=0);
+  border-color:#2c5629 #2c5629 #122311;
+  border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+  *background-color:#2c5629;
+  filter:progid:DXImageTransform.Microsoft.gradient(enabled=false);
+  color:white;
+  background:#478a42;-webkit-border-radius:3px;
+  -moz-border-radius:3px;
+  border-radius:3px;
+  background-image:-webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4b9145), color-stop(100%, #478a42));
+  background-image:-webkit-linear-gradient(#4b9145,#478a42);
+  background-image:-moz-linear-gradient(#4b9145,#478a42);
+  background-image:-o-linear-gradient(#4b9145,#478a42);
+  background-image:linear-gradient(#4b9145,#478a42)
+}
+body.green-theme .plans .btn.btn-success:hover,body.green-theme .plans .btn.btn-success:focus,
+body.green-theme .plans .btn.btn-success:active,body.green-theme .plans .btn.btn-success.active,
+body.green-theme .plans .btn.btn-success.disabled,body.green-theme .plans
+ .btn.btn-success[disabled]{
+  color:#fff;background-color:#2c5629;
+  *background-color:#244521
+  }
+ body.green-theme .plans .btn.btn-success:active,body.green-theme .plans 
+.btn.btn-success.active{background-color:#1b3419 \9}
+
+.btn-primary {
+  background-color: #2395e1;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+.pricing-box {
+  position: relative;
+  border: 1px solid #d9d9d9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #FFF;
+  padding: 15px;
+}
+
+
+
+  .pricing-box .time {
+    color: #2a2a2a;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .pricing-box .price {
+    color: #2a2a2a;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+  }
+
+  .pricing-box .saving {
+    color: #f4821f;
+    font-weight: 600;
+    line-height: 14px;
+    padding-top: 20px;
+  }
+
+  .pricing-box .permonth {
+    font-size: 13px;
+    text-align: center;
+    margin-top: -15px;
+  }
+
+  .pricing-box .program {
+    width: 72px;
+  }
+
+  .pricing-box ul {
+    height: 120px;
+  }
+
+  .pricing-box .headline {
+    color: #2a2a2a;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+
+  .pricing-box .headline-linetwo {
+    color: #f4821f;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: bold;
+  }
+
+  .pricing-box h4 {
+    margin-top: 0px;
+  }
+
+  .pricing-box sup {
+    font-size: 55%;
+  }
+
+.cant-commit {
+  font-size: 57px;
+  color: #2a2a2a;
+  font-weight: bold;
+}
+
+.try-session {
+  font-size: 27px;
+  color: #2a2a2a;
+  margin-top: -20px;
+}
+
+/* Ofer Box */
+.offer-box label input {
+  position: relative;
+  bottom: 2px;
+}
+
+.offer-box img.margin-left {
+  float: left;
+  margin-left: 20px;
+}
+
+.offer-box .description {
+  width: 150px;
+  margin-left: 113px;
+  font-size: 14px;
+  line-height: 1.2em;
+  margin-bottom: 0;
+  padding-top: 4px;
+  min-height: 73px;
+  text-align: left;
+}
+
+.offer-box {
+  border-bottom: 1px solid #d9d9d9;
+  padding: 5px;
+  padding-bottom: 15px;
+  padding-top: 11px;
+}
+
+  .offer-box .price-was {
+    color: #b2b2b2;
+    font-size: 17px;
+    text-align: right;
+    margin-bottom: -5px;
+    margin-top: 7px;
+  }
+
+  .offer-box .price {
+    color: #303030;
+    font-weight: bold;
+    text-align: right;
+    font-size: 25px;
+  }
+
+  .offer-box .permonth {
+    color: #b2b2b2;
+    text-align: right;
+    font-size: 13px;
+    margin-bottom: 0;
+  }
+
+  .pricing-box .save, .offer-box .save {
+    color: #f4821f;
+    font-weight: bold;
+    font-size: 15px;
+    text-align: right;
+    margin-bottom: 0;
+    margin-top: -1px;
+  }
+
+  .offer-box .time {
+    font-size: 25px;
+    color: #303030;
+    font-weight: bold;
+  }
+
+    .offer-box .time .base-month {
+      font-size: 20px;
+      color: #303030;
+      font-weight: bold;
+    }
+
+@media (max-width: 767px) {
+  .green-wrapper {
+    margin-bottom: 0px !important;
+    padding-bottom: 10px !important;
+  }
+
+  .pricing-button {
+    float: none;
+  }
+
+  .pricing-box {
+    margin-top: 10px;
+  }
+
+  .pricing-box-vertical {
+    border: none;
+  }
+
+  .pricing-box .better-grade {
+    top: 5px;
+    left: 0px;
+  }
+
+  h2 {
+    display: none;
+  }
+
+  .headline-linetwo {
+    font-size: 18px !important;
+  }
+
+  .cant-commit
+  {
+    font-size: 37px;
+    margin-bottom: 20px;
+  }
+
+  .better-grades-img {
+    display: none;
+  }
+
+  .try-session
+  {
+    font-size: 24px;
+    line-height: 24px;
+    padding: 10px;
+  }
+
+  .pricing-box ul {
+    padding-top: 10px;
+  }
+
+  .pricing-box .save.btn-blue-valign {
+    text-align: center;
+  }
+
+  .offer-box .description {
+    margin-left: 0px;
+    font-size: 13px;
+  }
+
+  .time, .price {
+    font-size: 20px !important;
+  }
+
+  .inner-container {
+    padding-bottom: 40px !important;
+  }
+}
+
