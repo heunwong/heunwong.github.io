@@ -34,7 +34,7 @@
 		<script>
 	$.validator.setDefaults({
 		submitHandler: function(form) {
-			$(form).ajaxSubmit();
+			form.submit();
 		}
 	});
 
@@ -44,45 +44,36 @@
 		// validate signup form on keyup and submit
 	 $("#signupForm").validate({
 			rules: {
-				firstname: {
+				f_name: {
 					required:true,
 					
 				},
-				lastname: {
+				l_name: {
 					required:true,
 					
 				},
-				phone: {
+				user_phone: {
 					required: true,
 					minlength: 10
 				},
-				comments: {
+				user_comments: {
 					required: true,
 					minlength: 10
 				},
-				confirm_password: {
-					required: true,
-					minlength: 5,
-					equalTo: "#password"
-				},
-				email: {
+
+				user_email: {
 					required: true,
 					email: true
 				},
-				topic: {
-					required: "#newsletter:checked",
-					minlength: 2
-				},
-				agree: "required"
-			},
+
 			messages: {
-				firstname: "Please enter your first name",
-				lastname: "Please enter your last name",
-				phone: {
+				f_tname: "Please enter your first name",
+				l_name: "Please enter your last name",
+				user_phone: {
 					required: "Please enter your phone number",
 					minlength: "Your phone number must include your area codes. Example: 888-888-8888"
 				},
-				comments: {
+				user_comments: {
 					required: "Please tell us about your needs.",
 					minlength: "We want you to write more than 10 characters so we can understand how to help you."
 				},
@@ -91,7 +82,7 @@
 					minlength: "Your password must be at least 5 characters long",
 					equalTo: "Please enter the same password as above"
 				},
-				email: "Please enter a valid email address",
+				user_email: "Please enter a valid email address",
 				agree: "Please accept our policy"
 			}
 
@@ -102,29 +93,29 @@
 	</head>
 
 	<body>
-		<form id="signupForm" accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input type="hidden" name="external" value="1">
+		<form id="signupForm" accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input type="hidden" name="external" value="1"></div>
   
         <h1>Tell Us About Your Academic Goals!</h1>
     
           <fieldset>
             <legend></legend>
             <label for="firstname">*First Name:</label>
-            <input type="text" id="firstname" name="firstname">
+            <input type="text" id="f_name" name="f_name">
 
             <label for="name">*Last Name:</label>
-            <input type="text" id="lastname" name="lastname">
+            <input type="text" id="l_name" name="l_name">
       
             <label for="mail">*Email:</label>
-            <input type="email" id="email" name="email">
+            <input type="email" id="mail" name="user_email">
 
             <label for="age">Age:</label>
-            <input type="text" id="age" name="age">
+            <input type="text" id="age" name="user_age">
 
             <label for="phone">*Phone Number:</label>
-            <input type="text" id="phone" name="phone">
+            <input type="text" id="phone" name="user_phone">
     
             <label for="comments">*Describe Your Needs and Goals:</label>
-            <textarea id="comments" name="comments" rows="5" cols="25"></textarea>
+            <textarea id="comments" name="user_comments" rows="5" cols="25"></textarea>
 
             <label for="name">Redemption Code:</label>
             <input type="text" id="code" name="code">
