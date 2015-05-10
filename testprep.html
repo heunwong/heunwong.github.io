@@ -28,23 +28,11 @@
         // validate the comment form when it is submitted
 
         // validate signup form on keyup and submit
-       $("#signupForm").validate({
+       $("#ebookForm").validate({
           rules: {
             f_name: {
               required:true,
               
-            },
-            l_name: {
-              required:true,
-              
-            },
-            user_phone: {
-              required: true,
-              minlength: 10
-            },
-            user_comments: {
-              required: true,
-              minlength: 10
             },
 
             user_email: {
@@ -54,22 +42,9 @@
           },
           messages: {
             f_name: "Please enter your first name",
-            l_name: "Please enter your last name",
-            user_phone: {
-              required: "Please enter your phone number",
-              minlength: "Your phone number must include your area code. Example: 888-888-8888"
-            },
-            user_comments: {
-              required: "Please tell us about your needs.",
-              minlength: "We want you to write more than 10 characters so we can understand how to help you."
-            },
-            confirm_password: {
-              required: "Please provide a password",
-              minlength: "Your password must be at least 5 characters long",
-              equalTo: "Please enter the same password as above"
-            },
+            
             user_email: {
-              required: "We need your email to respond to your message.",
+              required: "We need your email to send you the ebook.",
               email: "Please enter a valid email address"
             },
           }
@@ -587,7 +562,7 @@
   </div>
 
 
-  <div class="container ebook" id="#ebook">
+  <div class="container ebook" id="ebook">
     <div class="row">
       <h1>The 100 Point SAT Advantage</h1>
     
@@ -606,7 +581,7 @@
         </p>
       </div>
       <div class="col-md-4 form-group form-group-lg"> 
-        <form id="contactForm" accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input type="hidden" name="external" value="1"></div>
+        <form id="ebookForm" accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input type="hidden" name="external" value="1"></div>
   
     
           
@@ -657,7 +632,7 @@
         <ul class="unstyled">
           <li><a href="http://crimsonscholars.com">Home</a></li>
           <li><a href="#what_they_say" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'Testimonials'});">What People Say</a></li>
-          <li><a href="#how_it_works" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'How It Works'});">How It Works</a></li>
+          <li><a href="#howitworks" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'How It Works'});">How It Works</a></li>
           <li><a href="#see_tutors" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'Featured Tutors'});">Our Tutors</a></li>
         </ul>
         </div><!--col-lg-3-->
