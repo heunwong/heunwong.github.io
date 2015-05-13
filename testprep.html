@@ -18,6 +18,67 @@
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.1/jquery.validate.js"></script>
 
     <script>
+
+      $.validator.setDefaults({
+        submitHandler: function(form) {
+          form.submit();
+        }
+      });
+
+      $().ready(function() {
+        // validate the comment form when it is submitted
+
+        // validate signup form on keyup and submit
+       $("#signupForm").validate({
+          rules: {
+            f_name: {
+              required:true,
+              
+            },
+            l_name: {
+              required:true,
+              
+            },
+            user_phone: {
+              required: true,
+              minlength: 10
+            },
+            user_comments: {
+              required: true,
+              minlength: 10
+            },
+
+            user_email: {
+              required: true,
+              email: true
+            },
+          },
+          messages: {
+            f_name: "Please enter your first name",
+            l_name: "Please enter your last name",
+            user_phone: {
+              required: "Please enter your phone number",
+              minlength: "Your phone number must include your area code. Example: 888-888-8888"
+            },
+            user_comments: {
+              required: "Please tell us about your needs.",
+              minlength: "We want you to write more than 10 characters so we can understand how to help you."
+            },
+            confirm_password: {
+              required: "Please provide a password",
+              minlength: "Your password must be at least 5 characters long",
+              equalTo: "Please enter the same password as above"
+            },
+            user_email: {
+              required: "We need your email to respond to your message.",
+              email: "Please enter a valid email address"
+            },
+          }
+
+      });
+
+      });
+
       $.validator.setDefaults({
         submitHandler: function(form) {
           form.submit();
@@ -579,9 +640,12 @@
         <p>
         This ebook is a collection of those tips and strategies! By entering your email, we'll be able to send it to you directly. 
         </p>
+
+        <p style="color: red;">We are aware that our ebook form is not currently working.  We are working tirelessy to fix it.  Please email us instead at <a href="mailto:hw@crimsonscholars.com" style="color: blue;">hw@crimsonscholars.com</a>, and we will send the ebook to you personally.
+      </p>
       </div>
       <div class="col-md-4 form-group form-group-lg"> 
-        <form id="ebookForm" accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left"><div style="margin:0;padding:0;display:inline"><input type="hidden" name="external" value="1"></div>
+        <form id="ebookForm" accept-charset="UTF-8" action="http://toptutorapp-staging.herokuapp.com/home/send_request" method="post" style="text-align:left" onSubmit="_gaq.push(['_trackEvent', 'ebookForm', 'ebookSubmit', 'ebookSubmissionCompleted']);"><div style="margin:0;padding:0;display:inline"><input type="hidden" name="external" value="1"></div>
   
     
           
