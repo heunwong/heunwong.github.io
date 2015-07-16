@@ -45,7 +45,7 @@ ul.nav a:hover {
 
 #header {
   /*background: url(http://heroku.crimsonscholars.com/assets/home/bgdfinal-6f4048aca2e2da5148f496cb05683f77.png) center no-repeat fixed;*/
-  background: transparent url(../images/stockphotos/DeskGradient.jpg) center no-repeat fixed;
+  background: transparent url(./images/stockphotos/DeskGradient.jpg) center no-repeat fixed;
   background-size: cover;
 
 }
