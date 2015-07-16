@@ -187,7 +187,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-    <link href="./testprep.css" rel="stylesheet" type="text/css">
+    <link href="../css/testprep.css" rel="stylesheet" type="text/css">
     
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -272,7 +272,7 @@
               <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="http://www.crimsonscholars.com">
-              <img src="./images/stockphotos/main-logo.png" alt="Crimson Scholars" style="width:300px;height:37px;padding-top:0px">
+              <img src="../images/stockphotos/main-logo.png" alt="Crimson Scholars" style="width:300px;height:37px;padding-top:0px">
             </a>
           </div>
 
@@ -282,21 +282,19 @@
 
 
             <ul class="nav navbar-nav navbar-right">
-              <li>
-                <a href="http://crimsonscholars.com" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Home'});">  Home
-                </a>
-              </li>
 
               <li>
                 <a href="./about.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'About'});">
                 About
                 </a>
               </li>
+
+
               <li>
-                <a href="./testprep.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Test Prep'});">
-                Test Prep
+                <a href="./testprep.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Testprep'});">Testprep
                 </a>
               </li>
+
 
               <li>
                 <a href="./faq.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'FAQ'});">
@@ -309,6 +307,13 @@
                 Contact
                 </a>
               </li>
+
+               <li>
+                <a href="https://crimsonscholars.wordpress.com/" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Blog'});">
+                Blog
+                </a>
+              </li>
+              
             </ul>
 
 
@@ -427,14 +432,14 @@
     <div class="container rowfeaturette">
       <div class="row">
  
-          <div class="col-md-4">
-            <img class="img-circle" src="./images/Caroline2_crop.jpg" style="width: 300px; height: 300px;"alt="Caroline-Harvard-Tutor" id="photocircle">
+          <div class="col-md-3">
+            <img class="img-circle" src="../images/Caroline2_crop.jpg" style="width: 250px; height: 250px;"alt="Caroline-Harvard-Tutor" id="photocircle">
           
           </div><!--col-lg-4-->
 
           
 
-          <div class="col-md-8">
+          <div class="col-md-6">
           
               <h1>Teachers First.</h1>
               <p>Our students achieve because our tutors are exceptional.  They not only consistently score in the top percentage in standardized exams, but also have years of teaching experience.  We interview and run mock lessons with every tutor to ensure that their ability to teach is excellent.  Instead of showing students superificial tricks, our educators prepare students of any level with in-depth testing strategies.</p>
@@ -442,23 +447,40 @@
           
           </div><!--col-lg-4-->
 
+          <div class="col-md-3">
+              <h3>Student Testimonial</h3>
+              <h4>SSAT</h4>
+              <blockquote2><q>I did horribly on my first SSAT test, so I signed up with a tutor from Crimson Scholar. My tutor quickly identified what I needed improvement in, and helped me practice. I got an overall 99% percentile!</q> </blockquote2>
+              <h5> - J. Xiaoling, Student, 6th Grade</h5>
+
+          </div><!--col-lg-4-->
+
 
 
       </div>
+
+      <div class="col-md-3">
+              <h3>Parent Testimonial</h3>
+              <h4>ACT</h4>
+              <blockquote2><q>Our daughter was struggling with ACT mock exams, so we decided to get some extra help with our tutor, and it paid off. She felt confident going into the real exam, and got a perfect score of 35.</q> </blockquote2>
+              <h5> - B. Jenkins, Parent, 11th Grade</h5>
+
+          </div><!--col-lg-4-->
         <div class="row rowfeaturette2">
-          <div class="col-md-8">
+          <div class="col-md-6">
             <h1>This Is Personal.</h1>        
             <p>We don't do large instructional classes because they are ineffective.  Each one of our students receives custom lessons and the attention they deserve.  Crimson Scholars' tutors closely monitor student progress and develop corrective sessions.  These corrective measures guarantee that students learn the methods to master their exams.  We believe in engagement and there is nothing more engaging than 1-on-1 learning.</p><br>
           </div>
-          <div class="col-md-4">
-            <img class="img-circle" src="./images/stockphotos/personal.jpg" style="width: 300px; height: 300px;"alt="Personal-Tutors" id="photocircle">
+          <div class="col-md-2">
+            <img class="img-circle" src="../images/stockphotos/personal.jpg" style="width: 250px; height: 250px;"alt="Personal-Tutors" id="photocircle">
           </div>
+
         </div>
 
         <div class="row">
  
           <div class="col-md-4">
-            <img class="img-circle" src="./images/stockphotos/stack-of-sat-books.jpg" style="width: 300px; height: 300px;"alt="Improve-SAT-Scores" id="photocircle">
+            <img class="img-circle" src="../images/stockphotos/stack-of-sat-books.jpg" style="width: 250px; height: 250px;"alt="Improve-SAT-Scores" id="photocircle">
           
           </div><!--col-lg-4-->
 
@@ -468,45 +490,69 @@
           
               <h1>Dedication.</h1>
               <p>Our students don't stop learning once lessons are over, so we won't stop teaching either.  We make a point to be available to answer questions quickly and thoughtfully from email to chat.  This way our students can keep improving even after class.  As long as our students are willing to put in the effort, we will always be a resource to help them pursue their academic goals.</p>
-              <a href="#pricing" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'Plans'});">See our plans &raquo;</a>
+              <a href="./about.html" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'Plans'});">See our plans &raquo;</a>
           
           </div><!--col-lg-4-->
         </div>
     </div>
 
-
-
-      <!-- START THE FEATURETTES -->
-      
-    <div class="rowfeaturette1" id="what_they_say">
+<div class="allstar" id="see_tutors">
       <div class="container">
-
-        
-            
- 
         <div class="row">
-          <div class="col-md-12 textspace">      
-          <div class="rowfeaturette1quote" style="text-align:center">
-            <div class="col-md-6 ">       
+        <div class="col-md-12">
+          <h1>Explore our Expertise</h1>
+        
+          <h2>Click on the Standardized Test you seek tutoring for.</h2>
+          
+        </div>
+        </div>     
+  <br>    
+  <br>
+  <br>
+            
+              <div class="allstars">
+                <div class="row">
+                  <div class="col-md-3">
+                  <img class="img-circle" src="../images/shsat.png" style="width: 200px; height: 200px;"alt="Kelly" id="photocircle">
+                  <h2>SHSAT</h2>
+                  <ul id="allstar" style="text-align:center">
+                    <li><a href="./shsatMain.html" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'shsatMain'});">See our tutors &raquo;</a>
+                    </li>
+                  </ul> 
+                </div>
+                  
+                  <div class="col-md-3">
+                  <img class="img-circle" src="../images/ssat.png" style="width: 200px; height: 200px;"alt="Caroline" id="photocircle">
+                  <h2>SSAT</h2>
+                  <ul id="allstar" style="text-align:center">
+                    <li><a href="./ssatMain.html" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'ssatMain'});">See our tutors &raquo;</a>
+                    </li>
+                  </ul> 
+                  </div><!--col-lg-3-->
+                  
+                  <div class="col-md-3">
+                  <img class="img-circle" src="../images/SAT.png" style="width: 200px; height: 200px;"alt="Matt" id="photocircle">
+                  <h2>New SAT</h2>
+                  <ul id="allstar" style="text-align:center">
+                    <li><a href="./satMain.html" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'satMain'});">See our tutors &raquo;</a>
+                    </li>
+                  </ul> 
+                  </div><!--col-lg-3-->
+                  
+                  <div class="col-md-3">
+                  <img class="img-circle" src="../images/act.jpg" style="width: 200px; height: 200px;"alt="Steve" id="photocircle">
+                  <h2>ACT</h2>
+                  <ul id="allstar" style="text-align:center">
+                    <li><a href="./actMain.html" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'actMain'});">See our tutors &raquo;</a>
+                    </li>
+                  </ul> 
+                  </div><!--col-lg-3-->
+                </div><!--row-->
+              </div><!--allstars-->
+            </div><!--container-->
+      </div><!--allstar-->
 
 
-                <p id="bubblegirl1">"I really liked my tutor.  She made the test so much easier for me.  Even when I struggled, she would give me extra examples.  Now, I get to choose from my top high schools!"
-                <br><br> - S. Lee, Student, 8th Grade, SHSAT</p>
-            </div><!--col-sm-9-->
-
-            <div class="col-md-6">
-
-                <p class="bubble" id="bubblemom1">"Our tutor is great with my daughter. He is patient and understanding.  After each of his lessons, I could see Stacy grow more confident.  We are definitely happy with the results and recommend to everyone who wants caring tutors and amazing results."
-                <br><br> - L. Monroe, Parent, 11th Grade, SAT</p>        
-              
-
-            </div><!--col-sm-9-->
-          </div>
-          </div>
-        </div><!--row-->
-
-      </div><!--container-->
-    </div><!--rowfeaturette1-->
 
 
     <div class="howitworks" id="howitworks">
@@ -519,7 +565,7 @@
         <br>
         <div class="row">
           <div class="col-md-8">
-            <img src="./images/stockphotos/iPad-iMac.jpg" id="iPad">
+            <img src="../images/stockphotos/iPad-iMac.jpg" id="iPad">
           </div>
 
           <div class="col-md-4">
@@ -537,7 +583,7 @@
 
             <br>
               <a href="https://itunes.apple.com/us/app/top-tutor/id907259107?mt=8">
-                <img alt="Download App" src="./images/download.svg">
+                <img alt="Download App" src="../images/download.svg">
               </a>
           
           </div><!--col-lg-4-->
@@ -547,74 +593,105 @@
 
 
 
-    <div class="pricing" id="pricing"> 
+    <div class="pricing"> 
     <div class="container">
       <div class="row">
         <h1>Flexible Prices</h1>
         <h2>Students have different needs. Our plans are adjusted to address those needs perfectly.</h2>
       </div>
       <div class="row" style="padding-top: 50px;">
+
+
+        <div class="col-sm-3 span-3">
+          <div class="panel panel-success text-center">
+            <div class="panel-heading">
+              <h5>Most Value</h5>
+              <h3>Associates</h3>
+              <br>
+            </div>
+            <div class="panel-body">
+              <p>Starting at:</p>
+              <h3 class="panel-title price">$25<span class="price-cents"></span><span class="price-month">/hr.</span></h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">Highly Qualified Tutors</li>
+              <li class="list-group-item">Progress Report</li>
+              <li class="list-group-item">Homework based Lessons</li>
+
+              <li class="list-group-item"><button class="btn" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
+            </ul>
+          </div>          
+        </div>
           
-        <div class="col-sm-4 span-4">
+        <div class="col-sm-3 span-3">
           <div class="panel panel-default text-center">
             <div class="panel-heading">
-              <h3>High School</h3>
+              <br>
+              <h3>Bachelors</h3>
+              <br>
+            </div>
+            <div class="panel-body">
+              <p>Starting at:</p>
+              <h3 class="panel-title price">$45<span class="price-cents"></span><span class="price-month">/hr.</span></h3>
+            </div>
+            <ul class="list-group">
+              <li class="list-group-item">All Associates Benefits</li>
+              <li class="list-group-item">Custom Curriculum</li>
+              <li class="list-group-item">Basic Diagnostics</li>
+
+              <li class="list-group-item"><button class="btn btn-default" data-toggle="modal" data-target="#myModal" style="width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
+            </ul>
+          </div>          
+        </div>
+
+
+        <div class="col-sm-3 span-3">
+          <div class="panel panel-success text-center">
+            <div class="panel-heading">
+              <h5>Most Popular</h5>
+              <h3>Masters</h3>
+              <br>
             </div>
             <div class="panel-body">
               <p>Starting at:</p>
               <h3 class="panel-title price">$60<span class="price-cents"></span><span class="price-month">/hr.</span></h3>
             </div>
             <ul class="list-group">
-              <li class="list-group-item">Test Prep: SSAT, SHSAT, and PSAT</li>
-              <li class="list-group-item">Diagnostic & Assessment</li>
-              <li class="list-group-item">Lesson Plan & Study Schedule</li>
-              <li class="list-group-item">Progress & Lesson Reports</li>
-              <li class="list-group-item">Dedicated Support</li>
-
-              <li class="list-group-item"><button class="btn btn-default" data-toggle="modal" data-target="#myModal" style="width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
+              <li class="list-group-item">All Bachelors Benefits</li>
+              <li class="list-group-item">Top Tier Tutors</li>
+              <li class="list-group-item">24 Hour support</li>
+              <li class="list-group-item">Emergency Lessons</li>
+              <li class="list-group-item">Change/Cancel Anytime</li>
+              <li class="list-group-item"><button class="btn" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
             </ul>
           </div>          
+
         </div>
-        <div class="col-sm-4 span-4">
-          <div class="panel panel-success text-center">
+        <div class="col-sm-3 span-3">
+          <div class="panel panel-default text-center">
             <div class="panel-heading">
-              <h3>College</h3>
+              <br>
+              <h3>Doctorate</h3>
+              <br>
             </div>
             <div class="panel-body">
               <p>Starting at:</p>
               <h3 class="panel-title price">$100<span class="price-cents"></span><span class="price-month">/hr.</span></h3>
             </div>
             <ul class="list-group">
-              <li class="list-group-item">Test Prep: SAT, ACT, AP, IB, TOEFL</li>
-              <li class="list-group-item">Diagnostic & Assessment</li>
-              <li class="list-group-item">Lesson Plan & Study Schedule</li>
-              <li class="list-group-item">Progress & Lesson Reports</li>
-              <li class="list-group-item">Dedicated Support</li>
-              <li class="list-group-item"><button class="btn" data-toggle="modal" data-target="#myModal" style="background-color:#38C73D;width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
-            </ul>
-          </div>          
-
-        </div>
-        <div class="col-sm-4">
-          <div class="panel panel-default text-center">
-            <div class="panel-heading">
-              <h3>Comprehensive</h3>
-            </div>
-            <div class="panel-body">
-              <p>Starting at:</p>
-              <h3 class="panel-title price">$140<span class="price-cents"></span><span class="price-month">/hr.</span></h3>
-            </div>
-            <ul class="list-group">
-              <li class="list-group-item">Test Prep: SAT, ACT, AP, IB, TOEFL</li>
-              <li class="list-group-item">Diagnostic & Assessment</li>
-              <li class="list-group-item">Lesson Plan & Study Schedule</li>
-              <li class="list-group-item">Practice Tests</li>
-              <li class="list-group-item">Progress & Lesson Reports</li>
-              <li class="list-group-item">Dedicated Support</li>
+              <li class="list-group-item">All Masters Benefits</li>
+              <li class="list-group-item">Ivy League Tutors</li>
+              <li class="list-group-item">Guranateed Results</li>
+              <li class="list-group-item">Personal Hotline</li>
+              <li class="list-group-item">Educational Consulting</li>
+              <li class="list-group-item">Mentorship</li>
+              <li class="list-group-item">Resources</li>
               <li class="list-group-item"><button class="btn btn-default" data-toggle="modal" data-target="#myModal" style="width:110px; font-weight: lighter;" onClick="ga('send', 'event', { eventCategory: 'Request Form', eventAction: 'Start'});">Request!</button></li>
             </ul>
           </div>          
         </div>
+
+        
       </div>
       <div class="row">
         <p>Need more options?  <a href="mailto:support@crimsonscholars.com"><strong>Contact us</strong></a> to discuss a custom plan!</p>
@@ -691,6 +768,58 @@
   <div class="container">
       <div class="row">
         <div class="col-sm-3">
+        <h5>Locations</h5>     
+        <ul class="unstyled">
+          <li><a href="./manhattan-tutoring.html">Manhattan Tutoring</a></li>
+          <li><a href="./brooklyn-tutoring.html">Brooklyn Tutoring</a></li>
+          <li><a href="./queens-tutoring.html">Queens Tutoring</a></li>
+          <li><a href="./bronx-tutoring.html">The Bronx Tutoring</a></li>
+          <li><a href="./statenisland-tutoring.html">Staten Island Tutoring</a></li>
+        </ul>
+        </div><!--col-lg-3-->
+
+        <div class="col-sm-3">
+        <h5>Subjects</h5>     
+        <ul class="unstyled">
+          <li><a href="./algebra-tutoring.html">Algebra Tutoring</a></li>
+          <li><a href="./geometry-tutoring.html">Geometry Tutoring</a></li>
+          <li><a href="./algebraii-tutoring.html">Algebra II Tutoring</a></li>
+          <li><a href="./precalculus-tutoring.html">Precalculus Tutoring</a></li>
+          <li><a href="./trigonometry-tutoring.html">Trigonometry Tutoring</a></li>
+          <li><a href="./calculus-tutoring.html">Calculus Tutoring</a></li>
+
+        </ul>
+        </div>
+
+        <div class="col-sm-3">
+        <ul class="unstyled">
+          <br>
+          <br>
+          <li><a href="./statistics-tutoring.html">Statistics Tutoring</a></li>
+          <li><a href="./french-tutoring.html">French Tutoring</a></li>        
+          <li><a href="./spanish-tutoring.html">Spanish Tutoring</a></li>
+          <li><a href="./ushistory-tutoring.html">US History Tutoring</a></li>
+          <li><a href="./worldhistory-tutoring.html">World History Tutoring</a></li>
+          <li><a href="./chemistry-tutoring.html">Chemistry Tutoring</a></li>
+        </ul>
+        </div>
+
+        <div class="col-sm-3">  
+        <ul class="unstyled">
+          <br>
+          <br>
+          <li><a href="./biology-tutoring.html">Biology Tutoring</a></li>
+          <li><a href="./physics-tutoring.html">Physics Tutoring</a></li>
+          <li><a href="./ssat-tutoring.html">SSAT Tutoring</a></li>
+          <li><a href="./sat-tutoring.html">New SAT Tutoring</a></li>
+          <li><a href="./shsat-tutoring.html">SHSAT Tutoring</a></li>
+          <li><a href="./act-tutoring.html">ACT Tutoring</a></li>
+          <br>
+        </ul>
+        </div><!--col-lg-3-->
+
+
+        <div class="col-sm-3">
         <h5>Company</h5>     
         <ul class="unstyled">
           <li><a href="http://crimsonscholars.com">Home</a></li>
@@ -699,6 +828,7 @@
           <li><a href="#see_tutors" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'Featured Tutors'});">Our Tutors</a></li>
         </ul>
         </div><!--col-lg-3-->
+
 
         <div class="col-sm-3">
         <h5>Support</h5>
@@ -722,16 +852,17 @@
 
         <div class="col-sm-3">
         <h5>Connect With Us</h5> 
+        <div style="text-align: left;">
         <!-- Facebook -->
-        <a href="http://www.facebook.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/facebook-square.png" alt="Facebook" width="30" height="30"></a>
+        <a href="http://www.facebook.com/crimsonscholars" target="_blank"><img src="../images/Green Social Media Buttons/facebook-square.png" alt="Facebook" width="30" height="30"></a>
 
         <!-- Twitter -->
-        <a href="http://twitter.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/twitter.png" alt="Twitter" width="30" height="30"></a>
+        <a href="http://twitter.com/crimsonscholars" target="_blank"><img src="../images/Green Social Media Buttons/twitter.png" alt="Twitter" width="30" height="30"></a>
 
         <br>
         <br>
         <a href="https://itunes.apple.com/us/app/top-tutor/id907259107?mt=8">
-        <img alt="Download App" src="./images/download.svg">
+        <img alt="Download App" src="../images/download.svg">
         </a>
         </div><!--col-lg-3-->
 
@@ -739,7 +870,7 @@
     <br>
     <div class="row">
       <a href="http://www.crimsonscholars.com">
-      <img alt="Crimson Scholars" height="20" src="./images/stockphotos/main-logo.png" width="175">
+      <img alt="Crimson Scholars" height="20" src="../images/stockphotos/main-logo.png" width="175">
       </a>
       <p>&#169 2015 Crimson Scholars, Inc. - All Right Reserved</p>
     </div>
