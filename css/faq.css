@@ -78,41 +78,35 @@ hr {
     background-repeat: no-repeat;
 }
 
-.footer {
-	background: #333;
-	color: #eee;
-	font-size: 14px;
-	padding-top: 20px;
-	padding-bottom: 0px;
+#footer {
+  background: #333;
+  color: #eee;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 0px;
 }
 
-.footer li{
-	background: #333;
-	color: #eee;
-	font-size: 14px;
-	padding-bottom: 0px;
+#footer h5{
+  background: #333;
+  color: #38C73D;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
 }
 
-.footer h5{
-	background: #333;
-	color: #38C73D;
-	font-size: 16px;
-	font-family: 'Tahoma', sans-serif;
-	text-align: center;
+#footer li{
+  font-size: 12px;
 }
-
 ul.unstyled{
-	list-style: none;
-	padding: 0px;
-	color: #333;
-	font-family: 'Tahoma', sans-serif;
-	text-align: center;
+  list-style: none;
+  padding: 0px;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  text-align: left;
 }
 
-#contactus {
-	line-height: 75%;
-	text-align: center;
-}
+
+
 
 form {
   max-width: 300px;

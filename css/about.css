@@ -141,7 +141,7 @@ hr {
 	color: #38C73D;
 	font-size: 16px;
 	font-family: 'Lato', sans-serif;
-	text-align: center;
+	text-align: left;
 }
 
 ul.unstyled{
@@ -149,7 +149,7 @@ ul.unstyled{
 	padding: 0px;
 	color: #333;
 	font-family: 'Lato', sans-serif;
-	text-align: center;
+	text-align: left;
 }
 
 form {

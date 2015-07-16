@@ -92,7 +92,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Dosis:300,400' rel='stylesheet' type='text/css'>
-	<link href="./faq.css" rel="stylesheet" type="text/css">
+	<link href="../css/faq.css" rel="stylesheet" type="text/css">
 
 
 	<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -134,25 +134,23 @@
 
 	<div class="navbar navbar-static-top" id="main">
 		<div class="container">
-			<a class="navbar-brand" href="http://www.crimsonscholars.com"><img src="./images/stockphotos/main-logo.png" alt="Crimson Scholars" style="width:300px;height:47px;padding-top:10px"></a>
+			<a class="navbar-brand" href="http://www.crimsonscholars.com"><img src="../images/stockphotos/main-logo.png" alt="Crimson Scholars" style="width:300px;height:47px;padding-top:10px"></a>
 			<div class="pull-right">
 				<ul class="nav navbar-nav">
 					
-					<li class="active">
-                <a href="http://crimsonscholars.com" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Home'});">  Home
-                </a>
-              </li>
-
-              <li>
+					<li class = "active">
                 <a href="./about.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'About'});">
                 About
                 </a>
               </li>
+
+
               <li>
-                <a href="./testprep.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Test Prep'});">
-                Test Prep
+                <a href="./testprep.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Testprep'});">Testprep
                 </a>
               </li>
+
+
               <li>
                 <a href="./faq.html" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'FAQ'});">
                 FAQ
@@ -162,7 +160,14 @@
               <li>
                 <a href="#" data-toggle="modal" data-target="#contactModal"  onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Contact'});">
                 Contact
-                </a>					</li>
+                </a>
+              </li>
+
+               <li>
+                <a href="https://crimsonscholars.wordpress.com/" onClick="ga('send', 'event', { eventCategory: 'Navigation', eventAction: 'Blog'});">
+                Blog
+                </a>
+              </li>
 
 				</ul><!--end ul navbar-->
 			</div><!--end pull-right-->
@@ -209,9 +214,7 @@
 		</div><!--end col-lg-1-->
 
 		<div class="col-lg-10">
-
 		<h1>FAQs - Frequently Asked Questions</h1>
-
 		</div><!--end col-lg-10-->
 
 		<div class="col-lg-1">
@@ -239,14 +242,14 @@
 			<hr>
 
 			<h1>Q: How do I start a session with my tutor?</h1>
-			<p>A: Make sure you have signed in to our tutoring app on an iPad (link) or on Chrome web browser (link).   Then, add your tutor to your contact list by tapping the “+ contact button” and typing in her email.  Tap on your tutor’s name and press “start meeting”.</P>
+			<p>A: Make sure you have signed in to our tutoring app on an iPad (link) or on Chrome web browser (link).   Then, add your tutor to your contact list by tapping the “+ contact button” and typing in her email.  Tap on your tutor’s name and press “start meeting”.</p>
 			<hr>
 
 			<h1>Q: What can I get help with?</h1>
-			<p>A: Anything!  We have the best tutors who can help with everything from Portuguese to Calculus BC and everything in between.</P>
-			<br><br>
-
-		</div><!--end col-lg-4-->
+			<p>A: Anything!  We have the best tutors who can help with everything from Portuguese to Calculus BC and everything in between.</p>
+			<br>
+      <br>
+    </div><!--end col-lg-4-->
 
 		<div class="col-lg-4">
 
@@ -266,75 +269,135 @@
 
 			<h1>Q: How do I contact you if I still have questions?</h1>
 			<p>A: Email us at <a href="mailto:support@crimsonscholars.com">support@crimsonscholars.com</a> or call us at 929-500-1374.  We’ll always try to get back to you within one business day</p>
-			<br><br>
+			<br>
+      <br>
 
 		</div><!--end col-lg-4-->
 
 		<div class="col-lg-2">
 		</div><!--end col-lg-2-->
-
-	</div><!--end QandA-->
+  </div><!--end QandA-->
 
 
 </body>
 
 
-<img src="./images/stockphotos/Study 2cropped.jpg" id="study2" alt="Study 2">
+<img src="../images/stockphotos/Study 2cropped.jpg" id="study2" alt="Study 2">
 
-
-<div class="footer" style="text-align:center">
+<footer>
+<div id="footer" style="text-align:center">
 	<div class="container">
 		  <div class="row">
-			  <div class="col-sm-3">
-				<h5>Company</h5>     
-				<ul class="unstyled">
-				  <li><a href="http://www.crimsonscholars.com">Home</a></li>
-          		  <li><a href="./about.html">About Us</a></li>
-          		  <li><a href="#howitworks">How It Works</a></li>
-          		  <li><a href="#see_tutors">Our Tutors</a></li>
-				</ul>
-			  </div><!--col-lg-3-->
+			 <div class="col-sm-3">
+        <h5>Locations</h5>     
+        <ul class="unstyled">
+          <li><a href="./manhattan-tutoring.html">Manhattan Tutoring</a></li>
+          <li><a href="./brooklyn-tutoring.html">Brooklyn Tutoring</a></li>
+          <li><a href="./queens-tutoring.html">Queens Tutoring</a></li>
+          <li><a href="./bronx-tutoring.html">The Bronx Tutoring</a></li>
+          <li><a href="./statenisland-tutoring.html">Staten Island Tutoring</a></li>
+        </ul>
+        </div><!--col-lg-3-->
 
-			  <div class="col-sm-3">
-				<h5>Support</h5>
-				<ul class="unstyled">
-				  <li><a href="./faq.html">FAQs</a></li>
-				  <li><a href="#">Terms of Use</a></li>
-				  <li><a href="#">Privacy Policy</a></li>
-				</ul>
-			  </div><!--col-lg-3-->
-				
-			  <div class="col-sm-3" id="contactus">
-				<h5>Contact Us</h5>
-				<p><i class="fa fa-phone"></i> 1(929)-500-1374</p>
-				<p><i class="fa fa-map-marker"></i> 38 West 36th St.</p>
-				<p>New York, NY 10018</P>
-			  </div><!--col-lg-3-->
+        <div class="col-sm-3">
+        <h5>Subjects</h5>     
+        <ul class="unstyled">
+          <li><a href="./algebra-tutoring.html">Algebra Tutoring</a></li>
+          <li><a href="./geometry-tutoring.html">Geometry Tutoring</a></li>
+          <li><a href="./algebraii-tutoring.html">Algebra II Tutoring</a></li>
+          <li><a href="./precalculus-tutoring.html">Precalculus Tutoring</a></li>
+          <li><a href="./trigonometry-tutoring.html">Trigonometry Tutoring</a></li>
+          <li><a href="./calculus-tutoring.html">Calculus Tutoring</a></li>
 
-			  <div class="col-sm-3" id="connectwithus">
-				<h5>Connect With Us</h5> 
-				<!-- Facebook -->
-				<a href="http://www.facebook.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/facebook-square.png" alt="Facebook" width="30" height="30"></a>
+        </ul>
+        </div>
 
-				<!-- Twitter -->
-				<a href="http://twitter.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/twitter.png" alt="Twitter" width="30" height="30"></a>
+        <div class="col-sm-3">
+        <ul class="unstyled">
+          <br>
+          <br>
+          <li><a href="./statistics-tutoring.html">Statistics Tutoring</a></li>
+          <li><a href="./french-tutoring.html">French Tutoring</a></li>        
+          <li><a href="./spanish-tutoring.html">Spanish Tutoring</a></li>
+          <li><a href="./ushistory-tutoring.html">US History Tutoring</a></li>
+          <li><a href="./worldhistory-tutoring.html">World History Tutoring</a></li>
+          <li><a href="./chemistry-tutoring.html">Chemistry Tutoring</a></li>
+        </ul>
+        </div>
 
-				<!-- Google+ -->
-				<a href="https://plus.google.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/googleplus-square.png" alt="Google" width="30" height="30"></a>
+        <div class="col-sm-3">  
+        <ul class="unstyled">
+          <br>
+          <br>
+          <li><a href="./biology-tutoring.html">Biology Tutoring</a></li>
+          <li><a href="./physics-tutoring.html">Physics Tutoring</a></li>
+          <li><a href="./ssat-tutoring.html">SSAT Tutoring</a></li>
+          <li><a href="./sat-tutoring.html">New SAT Tutoring</a></li>
+          <li><a href="./shsat-tutoring.html">SHSAT Tutoring</a></li>
+          <li><a href="./act-tutoring.html">ACT Tutoring</a></li>
+          <br>
+        </ul>
+        </div><!--col-lg-3-->
 
-				<!-- LinkedIn -->
-				<a href="http://www.linkedin.com/crimsonscholars" target="_blank"><img src="./images/Green Social Media Buttons/linkedin.png" alt="LinkedIn" width="30" height="30"></a>
-			  </div><!--col-lg-3-->
+
+        <div class="col-sm-3">
+        <h5>Company</h5>     
+        <ul class="unstyled">
+          <li><a href="http://crimsonscholars.com">Home</a></li>
+          <li><a href="#what_they_say" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'Testimonials'});">What People Say</a></li>
+          <li><a href="#howitworks" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'How It Works'});">How It Works</a></li>
+          <li><a href="#see_tutors" onClick="ga('send', 'event', { eventCategory: 'On Page Navigation', eventAction: 'Featured Tutors'});">Our Tutors</a></li>
+        </ul>
+        </div><!--col-lg-3-->
+
+
+        <div class="col-sm-3">
+        <h5>Support</h5>
+        <ul class="unstyled">
+          <li><a href="./faq.html" onClick="ga('send', 'event', { eventCategory: 'Support', eventAction: 'FAQ'});">FAQs</a></li>
+          <li><a href="#" onClick="ga('send', 'event', { eventCategory: 'Support', eventAction: 'TOU'});">Terms of Use</a></li>
+          <li><a href="#" onClick="ga('send', 'event', { eventCategory: 'Support', eventAction: 'Policy'});">Privacy Policy</a></li>
+        </ul>
+        </div><!--col-lg-3-->
+        
+        <div class="col-sm-3" id="contactus">
+        <h5>Contact Us</h5>
+        <ul class="unstyled" id="contact">
+          <li><a href="tel:9295001374" onClick="ga('send', 'event', { eventCategory: 'Contact Us', eventAction: 'Call'});"><i class="fa fa-phone"></i> (929) 500-1374</a></li>
+          <li><a href="https://www.google.com/maps/place/31+E+32nd+St,+New+York,+NY+10016/@40.7464323,-73.9832164,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259a81f7ab08d:0xec2d6d1a334049c6" onClick="ga('send', 'event', { eventCategory: 'Contact Us', eventAction: 'Map'});"><i class="fa fa-map-marker"></i> 31 East 32nd St.</a></li>
+          <li><a href="https://www.google.com/maps/place/31+E+32nd+St,+New+York,+NY+10016/@40.7464323,-73.9832164,17z/data=!3m1!4b1!4m2!3m1!1s0x89c259a81f7ab08d:0xec2d6d1a334049c6" onClick="ga('send', 'event', { eventCategory: 'Contact Us', eventAction: 'Map'});">New York, NY 10016</a></li>
+          <li><a href="mailto:support@crimsonscholars.com" onClick="ga('send', 'event', { eventCategory: 'Contact Us', eventAction: 'Email'});">support@crimsonscholars.com</a></li>
+        </ul>
+
+
+        </div><!--col-lg-3-->
+
+        <div class="col-sm-3">
+        <h5>Connect With Us</h5> 
+        <div style="text-align: left;">
+        <!-- Facebook -->
+        <a href="http://www.facebook.com/crimsonscholars" target="_blank"><img src="../images/Green Social Media Buttons/facebook-square.png" alt="Facebook" width="30" height="30"></a>
+
+        <!-- Twitter -->
+        <a href="http://twitter.com/crimsonscholars" target="_blank"><img src="../images/Green Social Media Buttons/twitter.png" alt="Twitter" width="30" height="30"></a>
+
+        <br>
+        <br>
+        <a href="https://itunes.apple.com/us/app/top-tutor/id907259107?mt=8">
+        <img alt="Download App" src="../images/download.svg">
+        </a>
+        </div><!--col-lg-3-->
 
 		</div><!--row-->
 		<br>
 		  <a href="http://www.crimsonscholars.com">
-			<img alt="Crimson Scholars" height="20" src="./images/stockphotos/main-logo.png" width="175">
+			<img alt="Crimson Scholars" height="20" src="../images/stockphotos/main-logo.png" width="175">
 		  </a>
 		  <p>&#169 2015 Crimson Scholars, Inc. - All Right Reserved</p>
 
 	</div><!--container-->
-  </div>
+</div>
+</div>
 </footer>
 
 </html>
