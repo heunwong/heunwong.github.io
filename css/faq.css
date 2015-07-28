@@ -9,6 +9,12 @@ a:link:active, a:visited:active {
     color: #FFFFFF;
     padding-top: 1px;
 }
+body {
+  font-weight: 300;
+  word-spacing: 1px;
+  font-family: 'Lato', sans-serif;
+}
+
 
 ul.nav a:hover { 
 	color: #000000 !important; 
@@ -36,13 +42,6 @@ li {
 	margin: 0px;
 }
 
-li.footer {
-	font-size: 14px;
-	font-family: "Lato", sans-serif;
-	color: #000000;
-	padding: 0px;
-	margin: 0px;
-}
 
 hr {
 	height: 1px;
@@ -63,7 +62,6 @@ hr {
 
 #QandA h1 {
 	font-size: 18px;
-	font-weight: bold;
 }
 
 #QandA a {
@@ -100,12 +98,104 @@ hr {
 ul.unstyled{
   list-style: none;
   padding: 0px;
-  color: #333;
+  color: #000000;
   font-family: 'Lato', sans-serif;
   text-align: left;
 }
 
+.steps{
+  background-color: none;
+  padding-top:50px;
+  padding-bottom: 50px;
+  text-align: left;
+  line-height: 300%;
+}
+.steps p{
+  line-height:200%;
+}
 
+#steps li {
+  list-style-type: none;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  text-indent: 0px;
+}
+
+
+.steps h1{
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  color: #38C73D;
+  text-align: center;
+  margin-bottom: 10px;
+
+}
+
+.steps h3{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  text-align: left;
+}
+
+.steps h2{
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  color: #3b3b3b;
+  text-align: left;
+}
+.steps h4{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: #38C73D;
+  text-align: center;
+  font-weight: 300;
+
+}
+
+.steps h5{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: #3b3b3b;
+  text-align: center;
+  font-weight: 300;
+
+}
+
+.steps h6{
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  color: #ffff00;
+  text-align: center;
+  font-weight: bolder; 
+}
+
+.steps a{
+  text-indent: 20px;
+  list-style-type: none;
+  font-size: 18px;
+  color: #38C73D;
+  text-align: center;
+  text-indent: 0px;
+}
+
+.steps p{
+  font-size: 16px;
+}
+
+.pictures a{
+  font-family:'Lato', sans-serif;
+  font-size: 30px;
+  color: #38C73D;
+  text-align: center;
+  font-weight: bolder;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  color: #384047;
+}
 
 
 form {
